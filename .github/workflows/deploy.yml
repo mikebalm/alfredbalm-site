@@ -18,5 +18,5 @@ jobs:
 
       - uses: azure/webapps-deploy@v3
         with:
-          app-name: alfredbalm-site
+          app-name: AlfredBalmWeb
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
